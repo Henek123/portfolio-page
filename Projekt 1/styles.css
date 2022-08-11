@@ -1,0 +1,54 @@
+html{
+}
+body{
+    width: 100%;
+    font-size: 18px;
+    background-image: url(background.jpg);
+    color:white;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px 0;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+#description{
+    text-align: center;
+}
+label{
+    display:block;
+    margin-top: 0.5em;
+}
+div{
+    margin:auto;
+    min-width: 300px;
+    max-width: 450px;
+    background-color: rgba(18, 11, 112, 0.7);
+    padding:5px 20px;
+    border-radius: 10px;
+}
+#name, #email, #number, select, textarea{
+    width: 100%;
+    padding:0;
+    margin: 0;
+    background-color: rgb(8, 23, 71);
+    color:white;
+    border: 1px solid rgb(3, 13, 46);
+}
+#submit{
+    display:block;
+    margin: auto;
+    width:50%;
+    font-size:1.2rem;
+    height: 2.5rem;
+}
+fieldset{
+    margin-top: -20px;
+    border: none;
+    border-bottom: 2px solid rgba(11, 11, 99, 0.8);
+}
+fieldset:last-of-type{
+    border:none;
+}

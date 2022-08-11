@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width:device-width initial-scale="1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey</title>
+    </head>
+    <body>
+        <div>
+            <h1 id="title">Survey</h1>
+            <p id="description">Simple survey</p>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label">Name:<input type="text" id="name" placeholder="Enter your name" required></label>
+                    <label id="email-label">E-Mail:<input type="email" id="email" placeholder="Enter your e-mail" required></label>
+                    <label id="number-label">Age:<input type="number" id="number" placeholder="Enter your age" min="12" max="120"></label>
+                </fieldset>
+                <fieldset>
+                    <p>Why do you want to become Front-End Dev?</p>
+                    <select name="dropdown" id="dropdown">
+                        <option id="dropdown">Select an option</option>
+                        <option id="dropdown">I doon't like my current job</option>
+                        <option id="dropdown">I want do do something new</option>
+                        <option id="dropdown">I want to earn more</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <p>How much experience do you have in HTML?</p>
+                    <label><input name="radio" type="radio" value="1"> Less than 1 month</label>
+                    <label><input name="radio" type="radio" value="2"> 1-6 months</label>
+                    <label><input name="radio" type="radio" value="2"> 6-12 months</label>
+                    <label><input name="radio" type="radio" value="2"> 1-2 years</label>
+                    <label><input name="radio" type="radio" value="2"> 2+ years</label>
+                </fieldset>
+                <fieldset>
+                    <p>What programming languages do you want to learn?</p>
+                    <label><input type="checkbox" value="1"> JavaScript</label>
+                    <label><input type="checkbox" value="2"> Python</label>
+                    <label><input type="checkbox" value="3"> C++</label>
+                    <label><input type="checkbox" value="4"> C#</label>
+                </fieldset>
+                <fieldset>
+                    <p>What do you think about this webpage?</p>
+                    <textarea></textarea>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
