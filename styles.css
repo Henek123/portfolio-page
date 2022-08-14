@@ -84,7 +84,7 @@ h1{
 }
 .project-tile{
     width: 30%;
-    height: 400px;
+    max-height: 400px;
     margin: 100px 15px 0 15px;
 }
 .project-tile img{
